@@ -13,4 +13,11 @@ Here's an example code chunk in Python:
 
 ```{python}
 print("Hello, world!")
+
+from fastai.vision.all import *
+from fastbook import *
+
+path = untar_data(URLs.MNIST_SAMPLE)
+
+print(path.ls)
 ```
